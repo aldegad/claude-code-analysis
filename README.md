@@ -6,6 +6,23 @@
 
 ---
 
+## 주의사항 / Disclaimer
+
+- 본 분석은 npm 공개 패키지를 클론하여 수행한 것입니다
+- "유출 소스" 여부는 확인할 수 없으며, 공개된 패키지 기반 분석입니다
+- 교차검증(Claude Opus + OpenAI Codex, 총 22개 AI 에이전트)을 거쳤으나 해석의 오류 가능성이 존재합니다
+- 치명적 오류 5건을 발견하여 수정하였습니다
+
+## 교차검증 방법론 / Cross-Verification Methodology
+
+- Claude Opus 15개 + OpenAI Codex 7개 = 총 22개 AI 에이전트 병렬 검증
+- 각 리포트별 독립 팩트체크 수행
+- FALSE 판정 5건, PARTIAL 다수 발견 및 수정
+
+---
+
+## How It Leaked
+
 ## 리포트 목록
 
 | # | 파일 | 제목 |
